@@ -88,5 +88,33 @@
   <priority>0.64</priority>
 </url>
 
+<url>
+  <loc>https://quinndaisies.com/index.html</loc>
+  <lastmod>2022-04-03T21:20:57+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
 
+<url>
+  <loc>https://quinndaisies.com/monetization.html</loc>
+  <lastmod>2022-04-03T21:20:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://quinndaisies.com/crypto-currency.html</loc>
+  <lastmod>2022-04-03T21:20:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://quinndaisies.com/ebooks.html</loc>
+  <lastmod>2022-04-03T21:20:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://quinndaisies.com/message.html</loc>
+  <lastmod>2022-04-03T21:20:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
 </urlset>
