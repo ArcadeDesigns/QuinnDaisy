@@ -1,0 +1,280 @@
+/*google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+
+/*variables*/
+
+:root {
+    --container-color: #1a1a1a;
+    --second-color: #fd8f44;
+    --text-color: #172317;
+    --bg-color: #fff;
+    --primary-color: #968f8f;
+    --pouch-color: #00008B;
+    --background-dark: #000;
+    --section-color: #076453;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    background-image: url(daisieskindle2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-btn {
+    margin-left: 120px;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.hero-btn:hover {
+    color: var(--bg-color);
+    transition: 09s ease-in;
+}
+
+.hero-box {
+    background-color: var(--second-color);
+    border-radius: 10px;
+    height: 480px;
+}
+
+.hero-class {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--bg-color);
+    padding-top: 20px;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 15px;
+    color: var(--text-color);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem !important;
+}
+
+.main-content h1 {
+    font-size: 5.5rem;
+    color: var(--Pouch-color);
+    padding-bottom: 20px;
+}
+
+.main-content h2 {
+    font-size: 1rem;
+    color: var(--bg-color);
+    padding-bottom: 100px;
+    font-weight: 700;
+}
+
+.blog-btn {
+    color: var(--second-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.blog-btn:hover {
+    color: var(--primary-color);
+    transition: 0.9s ease-in;
+}
+
+.hero h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hero-catalogue h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    color: var(--second-color);
+}
+
+.hero-catalogue p {
+    text-align: center;
+}
+
+/*responsive*/
+
+@media (max-width: 1060px) {
+    .container {
+        margin: 0 auto;
+        width: 95%;
+    }
+    .home-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 912px) {
+    main{
+        height: 40vh;
+    }
+    .main-content h2{
+        padding-bottom: 200px;
+    }
+    .hero-box{
+        height: 600px;
+    }
+}
+
+@media (max-width: 820px) {
+    main{
+        height: 50vh;
+    }
+    .main-content h2{
+        padding-bottom: 160px;
+    }
+    .hero-box{
+        height: 730px;
+    }
+}
+
+@media (max-width: 768px) {
+    main{
+        height: 50vh;
+    }
+    .main-content h2{
+        padding-bottom: 160px;
+    }
+    .hero-box{
+        height: 750px;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .main-content h1 {
+        font-size: 3.7rem;
+    }
+    .main-content h2 {
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 130px;
+    }
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero-catalogue h1{
+        font-size: 1.5rem;
+    }
+    .hero-catalogue p{
+        font-size: 0.9rem;
+    }
+    .hero-box{
+        height: 300px;
+        margin: 10px;
+    }
+    .hero-class{
+        font-size: 1.2rem;
+    }
+    .hero-text{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 412px) {
+    main{
+        height: 70vh;
+    }
+    .main-content h1 {
+        font-size: 3.5rem;
+    }
+    .main-content h2 {
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 130px;
+    }
+    .hero-box {
+        height: 420px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .hero-box {
+        height: 440px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-content h1{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-content h1 {
+        font-size: 2.5rem;
+    }
+    .main-content h2 {
+        font-size: 0.9rem;
+    }
+    .blog-btn{
+        display: none;
+    }
+}
+
+@media (max-width: 280px) {
+    .blog-btn{
+        display: none;
+    }
+    .main-content h1{
+        font-size: 1.6rem;
+    }
+    .main-content h2{
+        font-size: 0.8rem;
+    }
+    .login{
+        font-size: 0.5rem;
+    }
+    .hero h1{
+        font-size: 0.8rem;
+    }
+    .hero-catalogue h1{
+        font-size: 0.7rem;
+    }
+    .hero-catalogue p{
+        font-size: 0.6rem;
+    }
+    .hero-box{
+        height: 300px
+    }
+    .hero-class{
+        font-size: 0.7rem;
+    }
+    .hero-text{
+        font-size: 0.6rem;
+    }
+}
