@@ -55,11 +55,11 @@ main {
 .hero-box {
     background-color: var(--second-color);
     border-radius: 10px;
-    height: 480px;
+    height: 280px;
 }
 
 .hero-class {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
@@ -69,6 +69,8 @@ main {
 
 .hero-text {
     text-align: center;
+    font-size: 0.7rem;
+    font-weight: 600;
     padding: 15px;
     color: var(--text-color);
 }
@@ -81,14 +83,14 @@ main {
 }
 
 .main-content h1 {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     color: var(--Pouch-color);
     padding-bottom: 20px;
 }
 
 .main-content h2 {
-    font-size: 1rem;
-    color: var(--bg-color);
+    font-size: 0.8rem;
+    color: var(--second-color);
     padding-bottom: 100px;
     font-weight: 700;
 }
@@ -106,14 +108,14 @@ main {
 }
 
 .hero h1 {
-    font-size: 2.7rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
     padding-top: 20px;
 }
 
 .hero-catalogue h1 {
-    font-size: 1.7rem;
+    font-size: 1rem;
     font-weight: 700;
     text-align: center;
     padding-top: 20px;
@@ -121,7 +123,66 @@ main {
 }
 
 .hero-catalogue p {
-    text-align: center;
+    text-align: left;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.portfolio h1{
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.portfolio p{
+    font-size: 0.8rem;
+    padding: 15px;
+    color: var(--primary-color);
+}
+
+.portfolio h2{
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.portfolio .links a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: var(--second-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: block;
+}
+
+.portfolio h3{
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.portfolio a{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: var(--second-color);
+    
+}
+
+.portfolio-img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid var(--second-color);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.portfolio-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
 }
 
 /*responsive*/
@@ -218,6 +279,9 @@ main {
     .hero-box {
         height: 420px;
         margin: 10px;
+    }
+    .portfolio-img {
+        display: none;
     }
 }
 
